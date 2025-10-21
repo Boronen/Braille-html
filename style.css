@@ -1,0 +1,91 @@
+body{
+    background: rgb(173, 173, 173) url(hatterem3.jpg);
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+.tartalom{
+    background: gray;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    padding: 30px;
+}
+.menu{
+    background: rgb(105, 105, 199);
+}
+
+.fejlec
+{
+    background: gray;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.tartalom p{
+    padding: 30px;
+}
+.bal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bal p{
+    margin: 20px;
+}
+.tartalom img{
+    padding: 30px;
+    width: 100%;
+}
+.jobb img{
+    width: 80%;
+}
+.jobb{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.lablec{
+    text-align: center;
+    background: yellow;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li:hover{
+    background-color: blueviolet;
+}
+.menu li:hover a{
+    color: yellow;
+}
+#aktiv{
+    background-color: rgb(151, 110, 21);
+}
+@media screen and (max-width:500px){
+    .menu ul{
+            grid-template-columns: 1fr;
+    }
+    .tarolo{
+        width: 100%;
+        font-size: 10px+2vw;
+    }
+    
+}
